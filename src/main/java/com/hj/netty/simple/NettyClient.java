@@ -13,7 +13,7 @@ public class NettyClient {
 
     public static void main(String[] args) throws InterruptedException {
 
-        //客户端需要一个事件循环组
+        //客户端需要一个事件循环组.
         NioEventLoopGroup group = new NioEventLoopGroup();
 
         try {
